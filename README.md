@@ -18,8 +18,8 @@ This process, however, of segmenting the cardiac structures takes time and is ju
 By being able to segment a patient's organs faster and with accuracy, heart specialists can spend more time planning for the treatment of their patient because they can see their patient's heart. [^1]
 
 ### My Objective:
-The goal of this project is to make and evaluate a machine-learning model for automated segmentation from cardiac magnetic resonance imaging (MRI). [^2]
-The model would be able to accurately segment the cardiac structures like left atrium, right atrium, left ventricle, right ventricle, and myocardium to enable a heart specialist to better diagnose and treat their patient.
+The goal of this project is to make and evaluate a machine-learning model for the automated segmentation of cardiac magnetic resonance images (MRI). [^2]
+The model would be able to accurately segment the left ventricle to enable heart specialists and doctors to better diagnose and treat their patients. I don't believe there is enough time in the course to make it into a usable tool where a doctor could put an MRI of what may be a left ventricle. Therefore I will use the semester to make, tune, and then compare my model to others, such as those available in the MONAI Model Zoo.[^3]
 
 ### Methodology:
 1. Obtain a dataset for training, validation, and testing [^2]
@@ -36,3 +36,4 @@ The model would be able to accurately segment the cardiac structures like left a
 Cardio-pulmonary substructure segmentation of radiotherapy computed tomography images using convolutional neural networks for clinical outcomes analysis. 
 Physics and Imaging in Radiation Oncology, 14, 61–66. https://doi.org/10.1016/j.phro.2020.05.009
 [^2]: The datasets I will be using are from a publicly available dataset. https://www.cardiacatlas.org/sunnybrook-cardiac-data/
+[^3]: Two models in the zoo can segment images of the left ventricle, which I will use to compare my model. https://monai.io/model-zoo.html
