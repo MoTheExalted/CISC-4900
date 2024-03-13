@@ -1,4 +1,4 @@
-# Title: Automated Cardiac Segmentation for Medical Analysis
+# Title: Automated Left Ventricular Segmentation for Medical Analysis
 
 ### Short Summary: For the capstone computer science class CISC 4900, I decided to do a pure machine learning project on cardiac segmentation.
 
