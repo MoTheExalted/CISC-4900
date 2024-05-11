@@ -28,8 +28,11 @@ The model would be able to accurately segment the left ventricle to enable heart
 4. Train the model using the annotated dataset, employing techniques such as data augmentation, transfer learning, and fine-tuning to enhance generalization
 5. Evaluate the performance of the trained model using quantitative metrics, including Dice similarity coefficient (DSC) and Hausdorff distance
 6.  Validate the generalizability and clinical utility of the automated segmentation framework using an independent test set from some set the model has never seen
-7.  Attempt to make the model into a usable tool where a user can input an image, and the model will be able to segment the image accurately 
+7.  Attempt to make the model into a usable tool where a user can input an image, and the model will be able to segment the image accurately
 
+### Instructions:
+The data was broken up into thirds due to GitHub not allowing pushes of files bigger than 100 MB. All you have to do is put the thirds into a single directory and keep the beginning part of the directory name i.e Training_Data, Validation_Data, Testing_Data. 
+However, these datasets were only used for generating the binary masks. I then took the images in each dataset that only had binary masks and placed them in separate directories, organized by patients (and by which dataset they come from) to simplify the training process. These directories start with mask_and_mri...zip. 
 
 
 [^1]: Haq, R., Hotca, A., Apte, A., Rimner, A., Deasy, J. O., & Thor, M. (2020). 
